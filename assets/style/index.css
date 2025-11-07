@@ -28,12 +28,12 @@ button {
 
 /* Main box (grid area) */
 #grid {
-  width: 600px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px auto;
-  border-radius: 8px;
-  padding: 10px;
+  width: 750px;              /* Wider like teacher's */
+  height: 350px;             /* Taller to fit more shapes */
+  background-color: #333;    /* Same dark box color */
+  margin: 30px auto;         /* Centered with more top space */
+  border-radius: 10px;       /* Slightly rounded edges */
+  padding: 15px;
   text-align: center;
 }
 
