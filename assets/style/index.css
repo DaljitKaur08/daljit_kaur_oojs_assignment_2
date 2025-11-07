@@ -1,74 +1,60 @@
-@charset "utf-8";
-
-/* Base style */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Shape Factory - Simple CSS version like class notes */
 
 body {
-  background-color: #16161a;
-  color: #eee;
-  font-family: 'Nunito Sans', sans-serif;
+  background-color: black;
+  color: white;
+  font-family: Arial;
   text-align: center;
-  min-height: 100vh;
 }
 
 h1 {
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
-/* Controls */
-.controls {
-  margin-bottom: 20px;
-}
-
-select, button {
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 6px;
-  border: none;
+/* Dropdowns and Button */
+select {
+  margin: 10px;
+  padding: 5px;
 }
 
 button {
-  background-color: #007bff;
+  background-color: orange;
   color: white;
-  cursor: pointer;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
-
-/* Grid for shapes */
-.grid {
-  background-color: #222;
+/* Main box (grid area) */
+#grid {
   width: 600px;
-  height: 200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  height: 300px;
+  background-color: #333;
+  margin: 20px auto;
   border-radius: 8px;
+  padding: 10px;
+  text-align: center;
 }
 
 /* Shape styles */
+.shape {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin: 10px;
+}
+
 .circle {
-  width: 60px;
-  height: 60px;
   border-radius: 50%;
 }
 
 .square {
-  width: 60px;
-  height: 60px;
+  border-radius: 5px;
 }
 
-.info {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #9f9;
+/* Info text */
+#info {
+  color: lime;
+  margin-top: 10px;
 }
