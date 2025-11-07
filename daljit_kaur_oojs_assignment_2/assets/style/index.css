@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* Base style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16161a;
+  color: #eee;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+/* Controls */
+.controls {
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Grid for shapes */
+.grid {
+  background-color: #222;
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+/* Shape styles */
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+}
+
+.info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #9f9;
+}
