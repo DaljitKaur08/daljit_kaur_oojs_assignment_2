@@ -1,7 +1,4 @@
-/* --------------------------
-   SHAPE FACTORY - FINAL VERSION
-   Matches assignment screenshot exactly
-   -------------------------- */
+/* Shape Factory - matches assignment screenshot */
 
 body {
   background-color: #111;
@@ -18,9 +15,7 @@ h1 {
   font-size: 28px;
 }
 
-/* --------------------------
-   Controls (dropdowns + button)
-   -------------------------- */
+/* Controls row */
 .controls {
   margin-top: 20px;
 }
@@ -36,7 +31,7 @@ select {
 }
 
 button {
-  background-color: #f90; /* orange same as assignment */
+  background-color: #f90;
   color: white;
   border: none;
   padding: 6px 14px;
@@ -48,12 +43,10 @@ button {
 }
 
 button:hover {
-  background-color: #ffad33; /* lighter orange when hovered */
+  background-color: #ffad33;
 }
 
-/* --------------------------
-   Grid box where shapes appear
-   -------------------------- */
+/* Grid where shapes appear */
 #grid {
   width: 500px;
   height: 350px;
@@ -64,9 +57,7 @@ button:hover {
   text-align: center;
 }
 
-/* --------------------------
-   Shape styling
-   -------------------------- */
+/* Shape style */
 .shape {
   width: 70px;
   height: 70px;
@@ -82,9 +73,7 @@ button:hover {
   border-radius: 6px;
 }
 
-/* --------------------------
-   Info text at bottom
-   -------------------------- */
+/* Info text */
 #info {
   color: #00ff00;
   margin-top: 15px;
