@@ -1,48 +1,56 @@
-/* Shape Factory - Simple CSS version like class notes */
+/* Shape Factory - matches assignment example */
 
 body {
-  background-color: black;
+  background-color: #111;   /* dark black background */
   color: white;
   font-family: Arial;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  margin-top: 20px;
+  margin-top: 30px;
+  font-weight: bold;
 }
 
-/* Dropdowns and Button */
+/* Controls (Dropdowns + Button) */
 select {
-  margin: 10px;
-  padding: 5px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
 }
 
 button {
-  background-color: orange;
+  background-color: orange;  /* same as assignment */
   color: white;
   border: none;
   padding: 6px 12px;
   border-radius: 4px;
   font-weight: bold;
+  cursor: pointer;
 }
 
-/* Main box (grid area) */
+/* Shape display box */
 #grid {
-  width: 750px;              /* Wider like teacher's */
-  height: 350px;             /* Taller to fit more shapes */
-  background-color: #333;    /* Same dark box color */
-  margin: 30px auto;         /* Centered with more top space */
-  border-radius: 10px;       /* Slightly rounded edges */
-  padding: 15px;
+  width: 500px;              /* same as screenshot proportion */
+  height: 350px;             /* almost square shape */
+  background-color: #222;    /* dark gray box */
+  margin: 25px auto;
+  border-radius: 8px;
+  padding: 10px;
   text-align: center;
 }
 
-/* Shape styles */
+/* Shape styling */
 .shape {
   width: 70px;
   height: 70px;
   display: inline-block;
-  margin: 10px;
+  margin: 8px;
 }
 
 .circle {
@@ -50,7 +58,7 @@ button {
 }
 
 .square {
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 /* Info text */
